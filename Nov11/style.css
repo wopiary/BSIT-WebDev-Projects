@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 24px;
+    background: #3b3a36;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.card {
+    max-width: 380px;
+    margin: 0 auto;
+    background-color: #e8dcb5;
+    border: 2px solid #5a4b2a;
+    border-radius: 4px;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 24px;
+    color: #2b2415;
+
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+}
+
+.cover {
+    height: 160px;
+    background-image: url("https://i.ibb.co/NdwnPGpp/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    border-bottom: 3px #5a4b2a;
+    filter: grayscale(1) sepia(0.4) contrast(1.1);
+}
+
+.card img {
+    display: block;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    margin: 24px auto 0;
+
+    outline: 1px solid #5a4b2a;
+    filter: grayscale(1) sepia(0.4) contrast(1.1);
+}
+
+.card h2 {
+    margin: 10px;
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 1.5px;
+}
+
+.subtitle {
+    margin-left: 10px;
+    color: #b3201f;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.card p {
+    margin: 0 0 16px;
+    padding: 0 28px;
+    font-size: 14px;
+}
+
+
+.card ul {
+    margin: 0;
+    padding: 0 28px 0 52px;
+    text-align: left;
+    font-size: 14px;
+}
